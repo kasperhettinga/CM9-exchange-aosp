@@ -224,7 +224,7 @@ public class CalendarSyncAdapter extends AbstractSyncAdapter {
 
     @Override
     public void sendSyncOptions(Double protocolVersion, Serializer s) throws IOException  {
-        setPimSyncOptions(protocolVersion, Eas.FILTER_2_WEEKS, s);
+        setPimSyncOptions(protocolVersion, Eas.FILTER_ALL, s);
     }
 
     @Override
